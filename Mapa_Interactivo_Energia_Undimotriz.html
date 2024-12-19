@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_10fd5b3ea425a2ead211cf3b4b7502a2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_10fd5b3ea425a2ead211cf3b4b7502a2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_10fd5b3ea425a2ead211cf3b4b7502a2 = L.map(
+                "map_10fd5b3ea425a2ead211cf3b4b7502a2",
+                {
+                    center: [20.0, -20.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9125853ed75913cf15fcbcc7c057f499 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_10fd5b3ea425a2ead211cf3b4b7502a2);
+        
+    
+            var marker_ce23fb7452f42ecc59b9197a58e3dddf = L.marker(
+                [38.7, -9.14],
+                {}
+            ).addTo(map_10fd5b3ea425a2ead211cf3b4b7502a2);
+        
+    
+            var icon_d334efd98435504f11d332bbbac9e88b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ce23fb7452f42ecc59b9197a58e3dddf.setIcon(icon_d334efd98435504f11d332bbbac9e88b);
+        
+    
+        var popup_30d55c61a7ce2449e602ad3a7bedb98c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39d45522f637f79a5ddbeafc46e1ab65 = $(`<div id="html_39d45522f637f79a5ddbeafc46e1ab65" style="width: 100.0%; height: 100.0%;"><b>Portugal: Columnas de Agua Oscilantes</b><br>              Infraestructuras costeras que generan energía limpia<br>              y estabilizan la costa contra la erosión.</div>`)[0];
+            popup_30d55c61a7ce2449e602ad3a7bedb98c.setContent(html_39d45522f637f79a5ddbeafc46e1ab65);
+        
+
+        marker_ce23fb7452f42ecc59b9197a58e3dddf.bindPopup(popup_30d55c61a7ce2449e602ad3a7bedb98c)
+        ;
+
+        
+    
+    
+            marker_ce23fb7452f42ecc59b9197a58e3dddf.bindTooltip(
+                `<div>
+                     Portugal: Columnas de Agua Oscilantes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4a7c93d2ebf7f5ea3227fe37afe5ddfb = L.marker(
+                [37.8715, -122.273],
+                {}
+            ).addTo(map_10fd5b3ea425a2ead211cf3b4b7502a2);
+        
+    
+            var icon_d411274bb98efe3c21dadc7b9317041d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4a7c93d2ebf7f5ea3227fe37afe5ddfb.setIcon(icon_d411274bb98efe3c21dadc7b9317041d);
+        
+    
+        var popup_747bff5d18a0c2244eb35737369530b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f084696d33289311b2fb6ef6508db4ac = $(`<div id="html_f084696d33289311b2fb6ef6508db4ac" style="width: 100.0%; height: 100.0%;"><b>Universidad de Berkeley</b><br>              Desarrollo de la Alfombra de Olas: un sistema menos invasivo<br>              y más resiliente frente a tormentas.</div>`)[0];
+            popup_747bff5d18a0c2244eb35737369530b8.setContent(html_f084696d33289311b2fb6ef6508db4ac);
+        
+
+        marker_4a7c93d2ebf7f5ea3227fe37afe5ddfb.bindPopup(popup_747bff5d18a0c2244eb35737369530b8)
+        ;
+
+        
+    
+    
+            marker_4a7c93d2ebf7f5ea3227fe37afe5ddfb.bindTooltip(
+                `<div>
+                     Berkeley: Alfombra de Olas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e7f3b092eec006cdb3b5112b083fd27 = L.marker(
+                [42.3601, -71.0942],
+                {}
+            ).addTo(map_10fd5b3ea425a2ead211cf3b4b7502a2);
+        
+    
+            var icon_909239d824327732b1bd0e56a94c69aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6e7f3b092eec006cdb3b5112b083fd27.setIcon(icon_909239d824327732b1bd0e56a94c69aa);
+        
+    
+        var popup_f618aeb97323eb23661b8ebfdf26cbc6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48334027c48dc7fa9f4ace71272c278d = $(`<div id="html_48334027c48dc7fa9f4ace71272c278d" style="width: 100.0%; height: 100.0%;"><b>MIT</b><br>              Investigación en absorbedores puntuales y tecnologías<br>              avanzadas para optimizar la captación de energía en aguas profundas.</div>`)[0];
+            popup_f618aeb97323eb23661b8ebfdf26cbc6.setContent(html_48334027c48dc7fa9f4ace71272c278d);
+        
+
+        marker_6e7f3b092eec006cdb3b5112b083fd27.bindPopup(popup_f618aeb97323eb23661b8ebfdf26cbc6)
+        ;
+
+        
+    
+    
+            marker_6e7f3b092eec006cdb3b5112b083fd27.bindTooltip(
+                `<div>
+                     MIT: Absorbedores Puntuales
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4dca11c187b5d5016497013497c5b04a = L.marker(
+                [57.1497, -2.0943],
+                {}
+            ).addTo(map_10fd5b3ea425a2ead211cf3b4b7502a2);
+        
+    
+            var icon_286d339f5ec0ab98cf66d91921f34cfb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_4dca11c187b5d5016497013497c5b04a.setIcon(icon_286d339f5ec0ab98cf66d91921f34cfb);
+        
+    
+        var popup_8d4f1b00b2dac25fb9093eb22e137c30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9db4f76c74a22da62d432f86070f9d14 = $(`<div id="html_9db4f76c74a22da62d432f86070f9d14" style="width: 100.0%; height: 100.0%;"><b>Escocia</b><br>              Instalaciones piloto para probar tecnologías undimotrices<br>              con potencial para escalar a nivel industrial.</div>`)[0];
+            popup_8d4f1b00b2dac25fb9093eb22e137c30.setContent(html_9db4f76c74a22da62d432f86070f9d14);
+        
+
+        marker_4dca11c187b5d5016497013497c5b04a.bindPopup(popup_8d4f1b00b2dac25fb9093eb22e137c30)
+        ;
+
+        
+    
+    
+            marker_4dca11c187b5d5016497013497c5b04a.bindTooltip(
+                `<div>
+                     Escocia: Instalaciones piloto
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_60c669b5be84c9adceda1fe8df667591 = L.marker(
+                [-33.8688, 151.2093],
+                {}
+            ).addTo(map_10fd5b3ea425a2ead211cf3b4b7502a2);
+        
+    
+            var icon_72c127de962a2d3c8f83d900393e237c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_60c669b5be84c9adceda1fe8df667591.setIcon(icon_72c127de962a2d3c8f83d900393e237c);
+        
+    
+        var popup_07f7af1241dacd3f97b012dc76100b77 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca10b2bc17dfe04fb879524832c57987 = $(`<div id="html_ca10b2bc17dfe04fb879524832c57987" style="width: 100.0%; height: 100.0%;"><b>Australia</b><br>              Instalaciones piloto que exploran la energía undimotriz<br>              y su viabilidad industrial.</div>`)[0];
+            popup_07f7af1241dacd3f97b012dc76100b77.setContent(html_ca10b2bc17dfe04fb879524832c57987);
+        
+
+        marker_60c669b5be84c9adceda1fe8df667591.bindPopup(popup_07f7af1241dacd3f97b012dc76100b77)
+        ;
+
+        
+    
+    
+            marker_60c669b5be84c9adceda1fe8df667591.bindTooltip(
+                `<div>
+                     Australia: Instalaciones piloto
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
